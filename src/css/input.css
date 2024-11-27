@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-blue-half {
+    background: linear-gradient(to right, #4dc0b5 50%, #4dc0b5 50%, #fff 50%);
+}
+.bg-gradient-to-left {
+    background-image: linear-gradient(to left, #000000, #3c3e64);
+    transition: background-position 0.5s ease;
+    background-size: 200% auto;
+    background-position: right bottom;
+  }
+
+  .bg-gradient-to-left:hover {
+    background-position: left bottom;
+  }
+.hallf{
+  width: 50%;
+}
